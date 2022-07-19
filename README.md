@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+# FacultyHack@Gateways22
+
+**Public Event Site Link: [https://hackhpc.github.io/FacultyHack-Gateways22/](https://hackhpc.github.io/FacultyHack-Gateways22/)**
+
+---
 
 You can use the [editor on GitHub](https://github.com/HackHPC/FacultyHack-Gateways22/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
