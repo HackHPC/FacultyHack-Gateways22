@@ -1,0 +1,53 @@
+<div class="container mtb">
+    <div class="row">
+        <div class="col-md-4">
+       
+            <h5>Tentative Training Sessions</h5>
+                <ul>
+            {% for session in site.data.sessions %}
+            <li>{% if session.date %}
+                    {{ session.date }} 
+                {% endif %}
+                {% if session.time %}
+                    {{ session.time }} - 
+                {% endif %} 
+                <strong>{{ session.name }} </strong> 
+                {% if session.duration %}
+                    (<em>{{ session.duration }}</em>)
+                {% endif %}
+                <br>
+                {% if session.type %}
+                    [{{ session.type }}]
+                {% endif %}
+                {% if session.presenter %}
+                    - {{ session.presenter }}
+                {% endif %}
+                <br>
+                {% if session.description %}
+                    <p>
+                        {{ session.description }}
+                    </p>
+                {% endif %}
+                {% if session.zoomlink %}
+                    <a href="{{ session.zoomlink }}">[Zoom]</a>
+                {% endif %}
+                {% if session.icsfile %}
+                    <a href="{{ session.icsfile | prepend: site.baseurl }}">[Add to Calendar]</a>
+                {% endif %}
+                {% if session.files %}
+                    {% for file in session.files %}
+                        <br>
+                        <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.name }}]</a>
+                    {% endfor %}
+                {% endif %}
+                {% if session.url %}
+                    <br>
+                    Url: <a href="{{ session.url }}">{{ session.url }}</a>
+                {% endif %}
+           </li>
+            {% endfor %}
+               </ul>
+
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
