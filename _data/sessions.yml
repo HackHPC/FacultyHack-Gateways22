@@ -17,8 +17,8 @@ sessions:
   date: 9/15/22
   time: 5p EST
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #  - filename:
@@ -27,12 +27,12 @@ sessions:
 
 - name: "TBD" 
   type: "Pre-training"
-  presenter: TBD
+  #presenter: TBD
   date: 9/22/22
   time: 5p EST
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
@@ -43,56 +43,56 @@ sessions:
   date: 9/29/22
   time: 5p EST
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
 - name: "TBD" 
   type: "Pre-training"
-  presenter: "TBD"
+  #presenter: "TBD"
   date: 10/6/22
   time: 5p EST
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
 - name: "TBD" 
   type: "Pre-training"
-  presenter: "TBD"
+  #presenter: "TBD"
   date: 10/13/22
   time: 5p EST
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
 - name: "TBD" 
   type: "Hackathon"
-  presenter: "TBD"
+  #presenter: "TBD"
   date: 10/16/22
-  time: TBD
+  #time: TBD
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
 - name: "Final Presentations" 
   type: "Hackathon"
-  presenter: "TBD"
+  #presenter: "TBD"
   date: 10/17/22
-  time: TBD
+  #time: TBD
   duration: 2hrs
-  description: TBD
-  zoomlink: TBD
+  #description: TBD
+  #zoomlink: TBD
   #icsfile: 
   #files:
   #url:

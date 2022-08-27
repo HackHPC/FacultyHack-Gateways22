@@ -1,11 +1,15 @@
+
+
+
+<div id="service">
+
 <div class="container mtb">
-    <div class="row">
-        <div class="col-md-4">
+
        
-            <h5>Tentative Training Sessions</h5>
-                <ul>
-            {% for session in site.data.sessions %}
-            <li>{% if session.date %}
+            <h3 >Tentative Pre-Training and Event Sessions</h3>
+                <ul class="list-group">
+            {% for session in site.data.sessions.sessions %}
+            <li class="list-group-item">{% if session.date %}
                     {{ session.date }} 
                 {% endif %}
                 {% if session.time %}
@@ -44,10 +48,11 @@
                     <br>
                     Url: <a href="{{ session.url }}">{{ session.url }}</a>
                 {% endif %}
+                <br>
            </li>
             {% endfor %}
                </ul>
 
-        </div>
-    </div><! --/row -->
+
 </div><! --/container -->
+</div>
