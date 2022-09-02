@@ -11,9 +11,9 @@ sessions:
 #  files:
 #  url:
 
-- name: "Oak Ridge National Labs (ORNL)" 
+- name: "TBD" 
   type: "Pre-training"
-  presenter: Elijah MacCarthy
+  #presenter: 
   date: 9/15/22
   time: 5p EST
   duration: 2hrs
@@ -49,9 +49,9 @@ sessions:
   #files:
   #url:
 
-- name: "TBD" 
+- name: "Oak Ridge National Labs (ORNL)" 
   type: "Pre-training"
-  #presenter: "TBD"
+  presenter: "Elijah MacCarthy"
   date: 10/6/22
   time: 5p EST
   duration: 2hrs
