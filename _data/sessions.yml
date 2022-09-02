@@ -73,10 +73,10 @@ sessions:
   #files:
   #url:
 
-- name: "TBD" 
-  type: "Hackathon"
+- name: "Poster Presentations" 
+  type: "Gateways22"
   #presenter: "TBD"
-  date: 10/16/22
+  date: 10/18/22
   #time: TBD
   duration: 2hrs
   #description: TBD
@@ -85,10 +85,10 @@ sessions:
   #files:
   #url:
 
-- name: "Final Presentations" 
-  type: "Hackathon"
+- name: "Conference Attendance" 
+  type: "Gateways22"
   #presenter: "TBD"
-  date: 10/17/22
+  date: 10/20/22
   #time: TBD
   duration: 2hrs
   #description: TBD
