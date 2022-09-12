@@ -123,6 +123,7 @@ members:
   
   - name: "Je'aime Powell"
     position: "Texas advanced Computing Center"
+    title: "Senior HPC Systems Administrator and Researcher"
     url: https://www.tacc.utexas.edu/
     text: >
       Je’aime is a Systems Administrator and a researcher at the Texas Advanced Computing 
@@ -141,6 +142,7 @@ members:
     
   - name: Boyd Wilson
     position: Omnibond
+    title: Technologist and product focused executive
     url: http://www.omnibond.com
     text: >
       Boyd Wilson, CEO of Omnibond Systems, has extensive experience and leadership in the 

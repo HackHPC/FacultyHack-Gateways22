@@ -1,3 +1,6 @@
+###############################
+###   SCHEDULE
+###############################
 sessions:
 #- name:
 #  type:
@@ -11,13 +14,15 @@ sessions:
 #  files:
 #  url:
 
-- name: "TBD" 
-  type: "Pre-training"
-  #presenter: 
+- name: "KICKOFF and Jupyter Notebooks" 
+  type: "Checkin/Training"
+  presenter: "Je'aime Powell" 
   date: 9/15/22
   time: 5p EST
   duration: 2hrs
-  #description: TBD
+  description: >  
+    Checkin #1: Team mentors will be assigned. (20 minutes)
+    Training: Jupyter Notebooks introduction for use towards reproducable science. 
   #zoomlink: TBD
   #icsfile: 
   #files:
@@ -25,49 +30,58 @@ sessions:
   #    location:
   #url:
 
-- name: "TBD" 
-  type: "Pre-training"
-  #presenter: TBD
+- name: "Poster Template Usage" 
+  type: "Checkin/Training"
+  presenter: Jeff Wood
   date: 9/22/22
   time: 5p EST
   duration: 2hrs
-  #description: TBD
+  description: > 
+    Checkin #2: Teams introduce themselves and their nest 3 day tasks (20 minutes)
+    Training: Poster template for final presentations 
   #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
 - name: "Qwiic Labs CloudyCluster in the Classroom" 
-  type: "Pre-training"
-  presenter: Boyd Wilson
+  type: "Checkin/Training"
+  presenter: "Boyd Wilson"
   date: 9/29/22
   time: 5p EST
   duration: 2hrs
-  #description: TBD
+  description: >
+    Checkin #3: Teams give update on their progress (20 minutes)
+    CloudyCluster Training:  Qwiic Labs CloudyCluster in the Classroom
   #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
 - name: "Oak Ridge National Labs (ORNL)" 
-  type: "Pre-training"
+  type: "Checkin/Training"
   presenter: "Elijah MacCarthy"
   date: 10/6/22
   time: 5p EST
   duration: 2hrs
-  #description: TBD
+  description: >
+    Checkin #4: Teams give update on their progress  (20 minutes)
+    Training: [ORNL]Pathways to Supercomputing Initiative for HBCUs/MSIs
+    
   #zoomlink: TBD
   #icsfile: 
   #files:
   #url:
 
-- name: "TBD" 
-  type: "Pre-training"
-  #presenter: "TBD"
+- name: "GitHub" 
+  type: "Checkin/Training"
+  presenter: "Je'aime Powell"
   date: 10/13/22
   time: 5p EST
   duration: 2hrs
-  #description: TBD
+  description: >
+    Checkin #5: Teams give update on data sets, resources and use cases. (20 minutes)
+    Training:  Github usage for project deliverable hosting
   #zoomlink: TBD
   #icsfile: 
   #files:
@@ -96,3 +110,52 @@ sessions:
   #icsfile: 
   #files:
   #url:
+
+###############################
+###   PRESENTERS
+###############################
+presenters:
+- name: "Jeff Wood"
+  position: "Science Gateways Community Institute"
+  title: Education Program Manager (Retired &#127881;)
+  url: http://nia.ecsu.edu
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: mailto:wood684@gmail.com
+    - title: linkedin
+      url: https://www.linkedin.com/in/jeff-wood-684b2a13/
+    #- title: twitter
+    #  url: 
+    #- title: github
+    #  url: 
+    - title: link
+      url: http://nia.ecsu.edu/sp/staff/jaw/index.htm
+
+- name: "Elijah MacCarthy"
+  position: "Oak Ridge National Laboratory"
+  title: HPC Engineer
+  url: https://www.ornl.gov
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: maccarthyea@ornl.gov
+    - title: linkedin
+      url: https://www.linkedin.com/in/elijah-maccarthy-ph-d-6176b293/
+    #- title: twitter
+    #  url: 
+    #- title: github
+    #  url: 
+    - title: link
+      url: https://www.ornl.gov/staff-profile/elijah-maccarthy
+
+
+
+###############################
+###   TEAMS
+###############################
+#teams:
+# - teamname:
+#   members: []
+#   goals:
+#   poster:
+#   github:
+     

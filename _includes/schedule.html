@@ -4,29 +4,68 @@
 <div class="container mtb">
 
        
-            <h3 >Tentative Pre-Training and Event Sessions</h3>
+            <h3>Event Sessions</h3>
                 <ul class="list-group">
             {% for session in site.data.sessions.sessions %}
-            <li class="list-group-item">{% if session.date %}
-                    {{ session.date }} 
+            <li class="list-group-item"><mark>{% if session.date %}
+                 <strong>   {{ session.date }} </strong>
                 {% endif %}
                 {% if session.time %}
-                    {{ session.time }} - 
+                <strong> @ {{ session.time }} </strong>- 
                 {% endif %} 
                 <strong>{{ session.name }} </strong> 
+            </mark>
                 {% if session.duration %}
                     (<em>{{ session.duration }}</em>)
                 {% endif %}
-                <br>
+            
                 {% if session.type %}
                     [{{ session.type }}]
                 {% endif %}
+                <br>
                 {% if session.presenter %}
-                    - {{ session.presenter }}
+                    <u>Presenter:</u> <em><strong>{{ session.presenter }}</strong></em>
+                        {% for presenter in site.data.sessions.presenters %}
+                            {% if session.presenter == presenter.name %}
+                                [
+                                {% for entry in presenter.social %}
+                                <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                {% endfor %} 
+                                ]
+                                {% if presenter.position %} 
+                                - <em> 
+                                    {% if presenter.title %}
+                                        {{ presenter.title }}
+                                    {% endif %}
+                                |<a href="{{ presenter.url }}" target="_blank"> {{ presenter.position }} </a>
+                                </em>
+                                {% endif %}
+                                
+                            {% endif %}
+                        {% endfor %}
+                        {% for presenter in site.members %}
+                            {% if session.presenter == presenter.name %}
+                                [
+                                {% for entry in presenter.social %}
+                                <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                {% endfor %} 
+                                ]
+                                {% if presenter.position %} 
+                                - <em> 
+                                    {% if presenter.title %}
+                                        {{ presenter.title }}
+                                    {% endif %}
+                                |<a href="{{ presenter.url }}" target="_blank"> {{ presenter.position }} </a>
+                                </em>
+                                {% endif %}
+                                
+                            {% endif %}
+                        {% endfor %} 
+
                 {% endif %}
                 <br>
                 {% if session.description %}
-                    <p>
+                    <p>[Description/Topics]<br>
                         {{ session.description }}
                     </p>
                 {% endif %}
