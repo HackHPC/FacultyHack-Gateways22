@@ -155,7 +155,67 @@ presenters:
 #teams:
 # - teamname:
 #   members: []
+#   schools:
+#   - name:
+#     logo:
+#     url:
 #   goals:
 #   poster:
 #   github:
+
+teams:
+- teamname: WSSU Team
+# members: []
+  schools: 
+  - name: Winston-Salem State University
+    logo: "/assets/img/logos/schools/wssu.png"
+    url: https://www.wssu.edu/
+# goals:
+# poster:
+# github:
+
+- teamname:  Morehouse Team
+# members: []
+  schools: 
+  - name: Morehouse College
+    logo: "/assets/img/logos/schools/morehouse.jpeg"
+    url: https://morehouse.edu/
+# goals:
+# poster:
+# github:
+
+- teamname: ECSU Team
+# members: []
+  schools: 
+  - name: Elizabeth City State University
+    logo: "/assets/img/logos/schools/ecsu.png"
+    url: https://www.ecsu.edu/
+# goals:
+# poster:
+# github:
+
+- teamname: NSU Team
+# members: []
+  schools:
+  - name: Norfolk State University
+    logo: "/assets/img/logos/schools/nsu.jpeg"
+    url: https://www.austincc.edu/sites/default/files/components/images/tansfer-slide-web02.jpg
+# goals:
+# poster:
+# github:
+
+- teamname: "NCAT/Austin Community College Team"
+# members: []
+  schools: 
+  - name: North Carolina Agricultural and Technical State University
+    logo: "/assets/img/logos/schools/ncat.png"
+    url: https://www.ncat.edu/"
+  - name: Austin Community College
+    logo: "/assets/img/logos/schools/acc.jpeg"
+    url: https://www.austincc.edu/
+# goals:
+# poster:
+# github:
+
+
      
