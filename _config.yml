@@ -193,7 +193,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "This will serve as the event site for the FacultyHack hosted by SGCI at the ScienceGateways22 Conference."
+about: "The FacultyHack@Gateways 2022 hosted is sponsored by SGCI and hosted by HackHPC.org. More information about other HackHPC.org events can be found below."
 
 # Testimonial content. Shown on Home and About page.
 #testimonial:
