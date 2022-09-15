@@ -92,17 +92,17 @@ sessions:
   #files:
   #url:
 
-- name: "Poster Presentations" 
-  type: "Gateways22"
+- name: "Reception and Poster Presentations" 
+  type: "Final Presentations"
   #presenter: "TBD"
   date: 10/18/22
-  #time: TBD
+  time: 6pm PST
   duration: 2hrs
   #description: TBD
   #zoomlink: TBD
   #icsfile: 
   #files:
-  #url:
+  url: "https://sciencegateways.org/gateways2022-program"
 
 - name: "Conference Attendance" 
   type: "Gateways22"
