@@ -26,10 +26,16 @@ sessions:
   zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   icsfile: "/assets/ics_files/sep-15-FacultyHackTraining.ics" 
+  url:
+    - name: "Anaconda"
+      url: https://www.anaconda.com/products/distribution
+    - name: "Google Colab"
+      url: https://colab.research.google.com/
+    - name: "Sample Github Repository Code"
+      url: https://github.com/jeaimehp/HPC-in-the-City-Python-IDE-Demo
   #files:
-  #  - filename:
-  #    location:
-  #url:
+  # - filename: "Anaconda"
+  #   location: https://www.anaconda.com/products/distribution
 
 - name: "Poster Template Usage" 
   type: "Checkin/Training"

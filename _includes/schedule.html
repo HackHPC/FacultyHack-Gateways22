@@ -22,6 +22,10 @@
                 {% if session.type %}
                     [{{ session.type }}]
                 {% endif %}
+                {% if session.icsfile %}
+                
+                &nbsp;&nbsp;&nbsp; <a href="{{ session.icsfile | prepend: site.baseurl }}"><i class="fa fa-calendar" style="font-size: 14px; padding: 2px; margin: 0px;"></i> [Add to Calendar]</a>
+                {% endif %}
                 <br>
                 {% if session.presenter %}
                     <u>Presenter:</u> <em><strong>{{ session.presenter }}</strong></em>
@@ -78,19 +82,24 @@
                
                 
                 
-                {% if session.icsfile %}
-                    <a href="{{ session.icsfile | prepend: site.baseurl }}"><i class="fa fa-calendar" style="font-size: 14px; padding: 2px; margin: 0px;"></i>[Add to Calendar]</a>
-                {% endif %}
+
                 {% if session.files %}
                     {% for file in session.files %}
                         <br>
-                        <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.name }}]</a>
+                        <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.filename }}]</a>
                     {% endfor %}
                 {% endif %}
                 {% if session.url %}
-                    <br>
-                    Url: <a href="{{ session.url }}">{{ session.url }}</a>
+                <br>
+                    <em>Resource Links: </em>
+                    {% for url in session.url %}
+ 
+                        <a href="{{ url.url }}">[ {{ url.name }} ]</a>
+                    {% endfor %}
+                    
                 {% endif %}
+
+                
                 <br>
            </li>
             {% endfor %}
