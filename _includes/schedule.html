@@ -84,9 +84,10 @@
                 
 
                 {% if session.files %}
+                 File(s): 
                     {% for file in session.files %}
-                        <br>
-                        <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.filename }}]</a>
+
+                        <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.filename }} ]</a>
                     {% endfor %}
                 {% endif %}
                 {% if session.url %}

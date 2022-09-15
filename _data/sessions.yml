@@ -49,7 +49,9 @@ sessions:
   zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   icsfile: "/assets/ics_files/sep-22-FacultyHackTraining.ics"
-  #files:
+  files:
+  - filename: "Poster Template (PPTX)"
+    location: "/assets/slidedecks/FacultHackGateways22PosterTemplate.pptx"
   #url:
 
 - name: "Qwiic Labs CloudyCluster in the Classroom" 
