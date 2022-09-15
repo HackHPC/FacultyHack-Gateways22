@@ -79,7 +79,7 @@
                 
                 
                 {% if session.icsfile %}
-                    <a href="{{ session.icsfile | prepend: site.baseurl }}">[Add to Calendar]</a>
+                    <a href="{{ session.icsfile | prepend: site.baseurl }}"><i class="fa fa-calendar" style="font-size: 14px; padding: 2px; margin: 0px;"></i>[Add to Calendar]</a>
                 {% endif %}
                 {% if session.files %}
                     {% for file in session.files %}
