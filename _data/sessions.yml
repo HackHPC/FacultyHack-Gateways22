@@ -110,7 +110,9 @@ sessions:
   #zoomlink: TBD
   #icsfile: 
   #files:
-  url: "https://sciencegateways.org/gateways2022-program"
+  url:
+  - name: "Gateways22 Program"
+    url: "https://sciencegateways.org/gateways2022-program"
 
 - name: "Conference Attendance" 
   type: "Gateways22"
