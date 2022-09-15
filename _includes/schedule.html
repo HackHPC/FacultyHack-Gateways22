@@ -64,14 +64,20 @@
 
                 {% endif %}
                 <br>
+                {% if session.zoomlink %}
+                <strong>Zoom</strong> <i class="fa fa-video" style="font-size: 14px; padding: 2px; margin: 0px;"></i>: <a href="{{ session.zoomlink }}"> [Meeting Link]</a>
+                {% endif %}
+                {% if session.zoominfo %}
+                {{ session.zoominfo }} 
+                {% endif %}
                 {% if session.description %}
                     <p>[Description/Topics]<br>
                         {{ session.description }}
                     </p>
                 {% endif %}
-                {% if session.zoomlink %}
-                    <a href="{{ session.zoomlink }}">[Zoom]</a>
-                {% endif %}
+               
+                
+                
                 {% if session.icsfile %}
                     <a href="{{ session.icsfile | prepend: site.baseurl }}">[Add to Calendar]</a>
                 {% endif %}

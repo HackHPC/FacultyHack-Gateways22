@@ -23,7 +23,8 @@ sessions:
   description: >  
     Checkin #1: Team mentors will be assigned. (20 minutes)
     Training: Jupyter Notebooks introduction for use towards reproducable science. 
-  #zoomlink: TBD
+  zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
+  zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   #icsfile: 
   #files:
   #  - filename:
@@ -39,7 +40,8 @@ sessions:
   description: > 
     Checkin #2: Teams introduce themselves and their nest 3 day tasks (20 minutes)
     Training: Poster template for final presentations 
-  #zoomlink: TBD
+  zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
+  zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   #icsfile: 
   #files:
   #url:
@@ -53,7 +55,8 @@ sessions:
   description: >
     Checkin #3: Teams give update on their progress (20 minutes)
     CloudyCluster Training:  Qwiic Labs CloudyCluster in the Classroom
-  #zoomlink: TBD
+  zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
+  zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   #icsfile: 
   #files:
   #url:
@@ -68,7 +71,8 @@ sessions:
     Checkin #4: Teams give update on their progress  (20 minutes)
     Training: [ORNL]Pathways to Supercomputing Initiative for HBCUs/MSIs
     
-  #zoomlink: TBD
+  zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
+  zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   #icsfile: 
   #files:
   #url:
@@ -82,7 +86,8 @@ sessions:
   description: >
     Checkin #5: Teams give update on data sets, resources and use cases. (20 minutes)
     Training:  Github usage for project deliverable hosting
-  #zoomlink: TBD
+  zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
+  zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   #icsfile: 
   #files:
   #url:
