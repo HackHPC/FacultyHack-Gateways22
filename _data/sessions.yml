@@ -33,9 +33,9 @@ sessions:
       url: https://colab.research.google.com/
     - name: "Sample Github Repository Code"
       url: https://github.com/jeaimehp/HPC-in-the-City-Python-IDE-Demo
-  #files:
-  # - filename: "Anaconda"
-  #   location: https://www.anaconda.com/products/distribution
+  files:
+    - filename: "Kick-Off Slides - Hayden (PDF)"
+      location: "/assets/slidedecks/Sept-15-Kickoff-Hayden.pdf"
 
 - name: "Poster Template Usage" 
   type: "Checkin/Training"
