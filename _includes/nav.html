@@ -12,9 +12,7 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        {% if site.registrationform %}
-        <li style="background: orange;"><a href="{{ site.registrationform }}" target="_blank">REGISTER HERE</a></li>
-        {% endif %}
+        
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Schedule" %}class="active"{% endif %}><a href="{{"/schedule/" | prepend: site.baseurl }}">SCHEDULE</a></li>
         <li {% if page.title == "Teams" %}class="active"{% endif %}><a href="{{"/teams/" | prepend: site.baseurl }}">TEAMS</a></li>
@@ -24,6 +22,7 @@
         -->
         <li {% if page.title == "Organizers" %}class="active"{% endif %}><a href="{{"/organizers/" | prepend: site.baseurl }}">ORGANIZERS</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
+        <li style="background: orange;"><a href="https://forms.gle/Xc2kMi3KaGN899v39" target="_blank">PRESENTATION UPLOADS</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
