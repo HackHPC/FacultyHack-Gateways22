@@ -44,7 +44,7 @@ sessions:
   time: 5p EST
   duration: 2hrs
   description: > 
-    Checkin #2: Teams introduce themselves and their next 3 day tasks (20 minutes)
+    Checkin #2: Teams introduce themselves and their next goal(S)/tasks for the next week (20 minutes)
     Training: Poster template for final presentations 
   zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
@@ -62,7 +62,7 @@ sessions:
   duration: 2hrs
   description: >
     Checkin #3: Teams give update on their progress (20 minutes)
-    CloudyCluster Training:  Qwiic Labs CloudyCluster in the Classroom
+    CloudyCluster Training: Qwiklabs Labs CloudyCluster in the Classroom
   zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   icsfile: "/assets/ics_files/sep-29-FacultyHackTraining.ics"
@@ -126,6 +126,9 @@ sessions:
   #files:
   #url:
 
+
+
+
 ###############################
 ###   PRESENTERS
 ###############################
@@ -146,6 +149,14 @@ presenters:
     - title: link
       url: http://nia.ecsu.edu/sp/staff/jaw/index.htm
 
+
+
+
+
+###############################
+###   MENTORS
+###############################
+mentors:
 - name: "Elijah MacCarthy"
   position: "Oak Ridge National Laboratory"
   title: HPC Engineer
@@ -162,6 +173,38 @@ presenters:
     - title: link
       url: https://www.ornl.gov/staff-profile/elijah-maccarthy
 
+- name: "Adonay Sissay"
+  position: "Northwestern State University of Louisiana"
+  title: Assistant Professor of Chemistry
+  url: https://www.nsula.edu
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: sissaya@nsula.edu
+    #- title: linkedin
+    #  url: https://www.linkedin.com/in/adonay-sissay-57197a34/
+    #- title: twitter
+    #  url: 
+    #- title: github
+    #  url: 
+    - title: link
+      url: https://www.nsula.edu/sissay-joins-scholars-as-new-chemistry-professor/
+
+- name: "Verónica Melesse Vergara"
+  position: "Oak Ridge National Laboratory"
+  title: "Group Leader, System Acceptance and User Environment"
+  url: https://www.ornl.gov
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: vergaravg@ornl.gov
+    - title: linkedin
+      url: https://www.linkedin.com/in/veronicamelessevergara
+    - title: twitter
+      url: https://twitter.com/verolero86
+    - title: github
+      url: https://github.com/verolero86 
+    - title: link
+      url: https://www.olcf.ornl.gov/directory/staff-member/veronica-melesse-vergara/
+
 
 
 ###############################
@@ -170,57 +213,112 @@ presenters:
 #teams:
 # - teamname:
 #   members: []
+#   mentor:
 #   schools:
 #   - name:
 #     logo:
 #     url:
-#   goals:
+# themesongname: 
+# themesongurl: 
+# teamintroimg: 
+# teamintropdf: 
+# targetcourses: 
+#  - name: ""
+#    coursenumber: 
+# goals:
+# - sessionname: ""
+#   goals: [ ]
 #   poster:
 #   github:
 
 teams:
-- teamname: WSSU Team
-# members: []
+- teamname: "Team Rams"
+  members: [ "Rebecca Caldwell", "Munene Kanampiu" ]
+  mentor: "Elijah MacCarthy"
   schools: 
   - name: Winston-Salem State University
     logo: "/assets/img/logos/schools/wssu.png"
     url: https://www.wssu.edu/
-# goals:
+# themesongname: 
+# themesongurl: 
+  teamintroimg: "/assets/img/teams/Team_Rams/Teamintro-temp.png"
+  teamintropdf: "/assets/img/teams/Team_Rams/TeamRams-Teamintro-temp.pdf"
+# targetcourses: 
+#  - name: ""
+#    coursenumber: 
+  goals:
+  - sessionname: "Checkin #2"
+    goals: [ "Identifying target course and applicable HPC resources from ORNL/wider HPC community" ]
 # poster:
 # github:
 
-- teamname:  Morehouse Team
-# members: []
+- teamname: "More Data, More Code"
+  members: ["Yvonne Phillips", "Alfred Watkins" ]
+  mentor: "Verónica Melesse Vergara"
   schools: 
   - name: Morehouse College
     logo: "/assets/img/logos/schools/morehouse.jpeg"
     url: https://morehouse.edu/
-# goals:
+# themesongname: 
+# themesongurl: 
+  teamintroimg: "/assets/img/teams/More_Data-More_Problems/Teamintro.png"
+# teamintropdf: 
+  targetcourses: 
+  - name: "Data Science"
+#    coursenumber:
+#  - name: "Software Engineering"
+#     coursenumber: 
+  goals:
+  - sessionname: "Checkin #2"
+    goals: [ "Get the Data Science initiative to assist in enrolling students in the HPCC course", "Create a curriculum to implement a tree-based model using a cluster" ]
 # poster:
 # github:
 
-- teamname: ECSU Team
-# members: []
+- teamname: "Viking Bytes"
+  members: ["Mohamed Elbakary","Sheryl Bradford"]
+  mentor: "Boyd Wilson"
   schools: 
   - name: Elizabeth City State University
     logo: "/assets/img/logos/schools/ecsu.png"
     url: https://www.ecsu.edu/
-# goals:
+  themesongname: "Viking Boast Battle (by: Vikings)"
+  themesongurl: https://www.youtube.com/watch?v=j49NyHMZLd0
+  teamintroimg: "/assets/img/teams/Viking_Bytes/TeamIntro.png"
+  teamintropdf: "/assets/img/teams/Viking_Bytes/VikingBytesTeamIntro.pdf"
+  targetcourses: 
+  - name: "Data Mining and Machine Learning"
+#    coursenumber: 
+  goals:
+  - sessionname: "Checkin #2"
+    goals: ["Create course description","Implementation schedule" ]
 # poster:
 # github:
 
-- teamname: NSU Team
-# members: []
+- teamname: "NSU Software Warriors"
+  members: ["Felicia Doswell"]
+  mentor: "Adonay Sissay"
   schools:
   - name: Norfolk State University
     logo: "/assets/img/logos/schools/nsu.jpeg"
     url: https://www.austincc.edu/sites/default/files/components/images/tansfer-slide-web02.jpg
-# goals:
+# themesongname: 
+# themesongurl: 
+  teamintroimg: "/assets/img/teams/NSU_Software_Warriors/Teamintro.png"
+  teamintropdf: "/assets/img/teams/NSU_Software_Warriors/NSUTeamintro.pdf"
+  targetcourses: 
+    - name: "Computer Science 1"
+#    coursenumber: 
+  goals:
+  - sessionname: "Team Goal"
+    goals: ["Integrating Computer Science with Scientific Computing Python, Science Problems, Data Analysis, Machine Learning" ]
+  - sessionname: "Checkin #2"
+    goals: [ "Identify Use Cases (Chemistry, Engineering) for CS1 course for the sciences", "Develop course description for CS1 course", "Refine course description for PDC course", "Find textbooks and materials for CS1 and PDC" ]
 # poster:
 # github:
 
-- teamname: "NCAT/Austin Community College Team"
-# members: []
+- teamname: "Number Crunchers"
+  members: ["La Tasha Roberts","Gina Bullock"]
+  mentor: "John Holeman"
   schools: 
   - name: North Carolina Agricultural and Technical State University
     logo: "/assets/img/logos/schools/ncat.png"
@@ -228,7 +326,16 @@ teams:
   - name: Austin Community College
     logo: "/assets/img/logos/schools/acc.jpeg"
     url: https://www.austincc.edu/
-# goals:
+# themesongname: 
+# themesongurl:
+  teamintroimg: "/assets/img/teams/Number_Crunchers/Teamintro.png"
+  teamintropdf: "/assets/img/teams/Number_Crunchers/NumberCrunchersTeamintro.pdf"
+  targetcourses: 
+  - name: "Accounting for Non-Accounting Majors"
+#    coursenumber: 
+  goals:
+  - sessionname: "Checkin #2"
+    goals: [ "Creating course description", "Create a simple program to enter Accounting Information" ]
 # poster:
 # github:
 

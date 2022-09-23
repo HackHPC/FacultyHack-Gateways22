@@ -65,6 +65,24 @@
                                 
                             {% endif %}
                         {% endfor %} 
+                        {% for presenter in site.data.sessions.mentors %}
+                            {% if session.presenter == presenter.name %}
+                                [
+                                {% for entry in presenter.social %}
+                                <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                {% endfor %} 
+                                ]
+                                {% if presenter.position %} 
+                                - <em> 
+                                    {% if presenter.title %}
+                                        {{ presenter.title }}
+                                    {% endif %}
+                                |<a href="{{ presenter.url }}" target="_blank"> {{ presenter.position }} </a>
+                                </em>
+                                {% endif %}
+                                
+                            {% endif %}
+                        {% endfor %} 
 
                 {% endif %}
                 <br>
