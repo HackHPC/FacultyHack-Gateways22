@@ -82,33 +82,31 @@ permalink: /
     
 </div><!--/service -->
 
-{% include portfolio.html title="FACULTY TEAMS" %}
 
 
-<!--
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href= "http://hackhpc.org" class="btn btn-theme" >More Info</a></p>
-        </div>
 
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
+
+
+
+<div id="portfoliowrap centered" style="width: 70%; margin: auto;">
+    <div class="portfolio-centered">
+        <h1>Faculty Teams:</h1>
+        <br>
+        <div class="recentitems portfolio">   
             <div class="hline"></div>
-            {% for question in site.questions %}
-                <p><a href="{{ question.url | prepend: site.baseurl }}">{{ question.title }}</a></p>
-            {% endfor %}
-        </div>
+            {% for team in site.data.sessions.teams %}
+            <div class="portfolio-item graphic-design" >
+                <div class="he-wrap tpl6" style="align-items: center; text-align: center;">
+                    <a href="{{ site.baseurl }}/teams/#{{ team.teamname }}"><img src="{{ team.teamintroimg | prepend:site.baseurl }}" width="300px" style="border: 4px solid #384452;"></a>
+            <a href="{{ site.baseurl }}/teams/#{{ team.teamname }}" style="color: #384452;"><h2>{{ team.teamname }}</h2></a>
+           
 
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.posts limit:5 %}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                </div></div>
             {% endfor %}
-        </div>
+
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
         
         
         
