@@ -205,6 +205,22 @@ mentors:
     - title: link
       url: https://www.olcf.ornl.gov/directory/staff-member/veronica-melesse-vergara/
 
+- name: "John Holeman"
+  position: "Oak Ridge National Laboratory"
+  title: HPC Engineer
+  url: https://www.ornl.gov
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: holmenjk@ornl.gov
+    - title: linkedin
+      url: https://www.linkedin.com/in/jholmen/
+    #- title: twitter
+    #  url: 
+    - title: github
+      url: https://github.com/jholmen
+    - title: link
+      url: https://www.olcf.ornl.gov/directory/staff-member/john-holmen/
+
 
 
 ###############################
