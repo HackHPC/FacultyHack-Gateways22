@@ -336,12 +336,13 @@ teams:
   members: ["La Tasha Roberts","Gina Bullock"]
   mentor: "John Holeman"
   schools: 
+  - name: Austin Community College
+    logo: "/assets/img/logos/schools/acc-logo.png"
+    url: https://www.austincc.edu/
   - name: North Carolina Agricultural and Technical State University
     logo: "/assets/img/logos/schools/ncat.png"
     url: https://www.ncat.edu/"
-  - name: Austin Community College
-    logo: "/assets/img/logos/schools/acc.jpeg"
-    url: https://www.austincc.edu/
+  
 # themesongname: 
 # themesongurl:
   teamintroimg: "/assets/img/teams/Number_Crunchers/Teamintro.png"
