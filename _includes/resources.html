@@ -71,6 +71,37 @@
 
             <hr>
 
+            <h2>File Links:</h2>
+
+            <ul>
+                {% for session in site.data.sessions.sessions %}
+                    {% for file in session.files %}
+                        <li><a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> [{{ session.date }}]</li>
+                    
+                    {% endfor %}
+
+
+                {% endfor %}
+
+        
+            </ul>
+
+            <hr>
+            <h2>HackHPC Social Media:</h2>
+            <ul>
+
+                {% for ref in site.data.sessions.socialmedia %}
+                    
+                        <li><i class="fa fa-{{ ref.icon }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+                    
+                    {% endfor %}
+
+
+              
+            </ul>
+
+            <hr>
+
             <h2>Participating Schools:</h2>
 
             <ul>
@@ -86,22 +117,41 @@
             </ul>
 
             <hr>
-
-            <h2>File Links:</h2>
-
+            <h2>References:</h2>
             <ul>
-                {% for session in site.data.sessions.sessions %}
-                    {% for file in session.files %}
-                        <li><a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> [{{ session.date }}]</li>
+
+                {% for ref in site.data.sessions.references %}
+                    
+                        <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
                     
                     {% endfor %}
+                    <br>
+                <u><b>Dashboards and Data Science</b></u>
+                <br>
+                {% for ref in site.data.sessions.dashboards %}
+                    
+                <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+            
+            {% endfor %} 
 
 
-                {% endfor %}
+              
+            </ul>
+            <hr>
+            <h2>ADMI22 Training Sessions:</h2>
 
 
-           
+            <ul>
 
+                {% for ref in site.data.sessions.admi22 %}
+                    
+                        <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+                    
+                    {% endfor %}
+                    <br>
+
+
+              
             </ul>
 
 

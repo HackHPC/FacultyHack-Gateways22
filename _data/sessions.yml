@@ -374,4 +374,79 @@ teams:
 #- name: "Science Gateways Community Institute"
 #  url: https://sciencegateways.org
 
+##################################
+## References
+#################################
+references:
+- name: HackHPC.org 
+  url: http://hackhpc.org
+- name: HackHPC Past Hackathon Events
+  url: http://hackhpc.org/pasthacks/
+- name: HackHPC Datasets
+  url: http://hackhpc.org/data/
+- name: GitHub Markdown Reference
+  url: https://github.github.com/gfm 
+- name: Introduction to GitHub
+  url: https://lab.github.com/githubtraining/introduction-to-github
+- name: Introduction to Version Control
+  url: https://swcarpentry.github.io/git-novice/
+
+dashboards:
+- name: R for Data Science - R for Data Science. Code in R / concepts useful any language
+  url: had.co.nz 
+- name: Tidy data for efficiency, reproducibility, and collaboration
+  url: openscapes.org 
+- name: Tidy data Paper - Original paper by Hadley Wickham (founder of R) who pioneered the concept of tidy data
+  url: https://vita.had.co.nz/papers/tidy-data.pdf
+- name: Tidy data - informal and example code heavy (in R) version
+  url: tidyverse.org 
+- name: Chart Chooser — Juice Analytics
+  url: https://www.juiceanalytics.com/chartchooser
+- name: Plotly graphing library
+  url: https://plotly.com/python/
+- name: Dash App documentation
+  url: https://dash.plotly.com/
+- name: Deploy to Heroku integration from github
+  url: https://devcenter.heroku.com/articles/github-integration
+- name: Dash guidance / command line (scroll past Enterprise information to Heroku / free section
+  url: https://dash.plotly.com/deployment
+
+admi22:
+- name: HackHPC@ADMI22 YouTube Playlist
+  url: https://www.youtube.com/playlist?list=PLk7G3_iq2ijTH7GzPIQZ-L8IfqSUS74X-
+- name: "GitHub and Discord Training"
+  url: https://hackhpc.github.io/ADMI22/github-discord-training/
+- name: " Mentor Overview"
+  url: https://hackhpc.github.io/ADMI22/mentor-training/
+- name: "Data to Dashboard Training"
+  url: https://hackhpc.github.io/ADMI22/data-to-dashboard-training/
+- name: " Begining to End Training"
+  url: https://hackhpc.github.io/ADMI22/end-to-end/
+- name: "Google Cloud Patform and Cloudy Cluster Training"
+  url: https://hackhpc.github.io/ADMI22/google-and-cloudycluster-training/
+
+
+socialmedia:
+- name: Twitter
+  icon: twitter
+  url: https://twitter.com/ccloudhack
+- name: LinkedIn Group
+  icon: linkedin
+  url: https://www.linkedin.com/groups/8859728/
+- name: YouTube Channel
+  icon: youtube
+  url: https://www.youtube.com/channel/UCESkfjHWsERvFpJgPmWXRSA/playlists
+- name: Event Playlist
+  icon: youtube
+  url: https://www.youtube.com/watch?v=T7WNm5aFpfg&list=PLk7G3_iq2ijSIaAp3EqCIRLmEYpZxl8Tx
+- name: Spotify Collaborative Playlist
+  icon: music
+  url: https://open.spotify.com/playlist/57kLEJeOWVzlbn7iBwOiDg?si=2d03e8c4ed0d484a
+
+
+  
+
+
+
+
      
