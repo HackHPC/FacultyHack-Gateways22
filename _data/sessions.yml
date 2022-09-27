@@ -61,7 +61,7 @@ sessions:
   - name: "Checkin #2 Team Introductions and Poster Template Training"
     link: https://youtu.be/uIxhKxyGUT0 
 
-- name: "Qwiic Labs CloudyCluster in the Classroom" 
+- name: "Qwiklabs Labs CloudyCluster in the Classroom" 
   type: "Checkin/Training"
   presenter: "Boyd Wilson"
   date: 9/29/22
@@ -74,7 +74,9 @@ sessions:
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   icsfile: "/assets/ics_files/sep-29-FacultyHackTraining.ics"
   #files:
-  #url:
+  url:
+  - name: "Google Qwiklabs"
+    url: https://go.qwiklabs.com
 
 - name: "Oak Ridge National Labs (ORNL)" 
   type: "Checkin/Training"
