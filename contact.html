@@ -11,7 +11,8 @@ permalink: /contact/
         <div class="col-lg-8">
             <h4>Just Get In Touch!</h4>
             <div class="hline"></div>
-                <p>{{ site.about }}</p>
+                <p>{{ site.about }}
+                </p>
                 <form role="form">
                   <div class="form-group">
                     <label for="InputName1">Your Name</label>
@@ -31,23 +32,22 @@ permalink: /contact/
                   </div>
                   <button type="submit" class="btn btn-theme">Submit</button>
                 </form>
+                <br>
+                  Email: <a href="mailto:{{ site.email }}?[FacultyHack@Gateways22]">{{ site.email }}</a>
         </div><!--/col-lg-8 -->
 
         <div class="col-lg-4">
-            <h4>Our Address</h4>
-            <div class="hline"></div>
+        
+            
                 <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
+                  
                 </p>
-                <p>
-                    Email: {{ site.email }}<br/>
+                <p >
+                    
+                    <br>
+                  <img src="{{ "/assets/img/logos/SGCI-NSF-lfachack.png" | prepend: site.baseurl }}">
+                </p>
                 
-                </p>
-                <p>The FacultyHack@Gateway2022 will involve five(5) teams of two(2) Computer Science faculty or one(1) Computer Science and one(1) related discipline area faculty are encouraged to submit applications. Faculty will adapt High-Performance Computing (HPC) tools for use in their courses. They will leave with "ready-to-go" course outlines, supporting data, and identified resources. 
-                  <br>
-                  Check-ins take place the first 20 minutes of each training session to access team progress and provide suggestions for success. During the check-ins, teams will have 2-3 minutes to give their updates.</p>
         </div>
     </div><!--/row -->
 </div><!--/container -->
