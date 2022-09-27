@@ -3,13 +3,24 @@
 
 <div class="container mtb">
 
-       
+            
+            <h2>Session Videos:</h2>
+            <ul>
+                {% for youtube in site.data.sessions.sessions %}
+                    {% for vid in youtube.youtube %}
+                        <li><i class="fa fa-youtube" style="font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ vid.name }}</b> [{{ youtube.date }}] - <a href="{{ vid.link }}" target="_blank">{{ vid.link }}</a> </li>
+                    {% endfor %}
+
+                {% endfor %}
+            </ul>
+
+
             <h2>Site Links:</h2>
 
             <ul>
                 {% for session in site.data.sessions.sessions %}
                     {% if session.url %}
-                    <li><em>Session: {{ session.name }}</em></li>
+                    <li><em>Session: {{ session.name }}</em> [{{ session.date }}]</li>
                     <ul>
                     {% for link in session.url %}
                         <li><b>{{ link.name}}</b> - <a href="{{ link.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ link.url }}</a> </li>
@@ -80,7 +91,7 @@
             <ul>
                 {% for session in site.data.sessions.sessions %}
                     {% for file in session.files %}
-                        <li><a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> </li>
+                        <li><a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> [{{ session.date }}]</li>
                     
                     {% endfor %}
 
@@ -96,5 +107,5 @@
 
 
 
-</div><! --/container -->
+</div><!--/container -->
 </div>

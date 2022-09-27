@@ -97,6 +97,16 @@
                         {{ session.description }}
                     </p>
                 {% endif %}
+
+                {% if session.youtube %}
+                <p> <b>Video Link:</b>
+                    {% for vid in session.youtube %}
+                    <a href="{{ vid.link }}" target="_blank">[ <i class="fa fa-youtube" style="font-size: 14px; padding: 2px; margin: 0px;"></i> {{ vid.name }} ]</a>
+                    {% endfor %}
+                </p>
+
+                {% endif %}
+           
                
                 
                 
