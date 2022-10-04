@@ -381,6 +381,8 @@ teams:
   goals:
   - sessionname: "Checkin #2"
     goals: [ "Creating course description", "Create a simple program to enter Accounting Information" ]
+  - sessionname: "Checkin #3"
+    goals: [ "Creating module description about Securing Data Focusing on Data Breaches"]
 # poster:
 # github:
 
