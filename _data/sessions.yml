@@ -269,16 +269,22 @@ teams:
     url: https://www.wssu.edu/
 # themesongname: 
 # themesongurl: 
-  teamintroimg: "/assets/img/teams/Team_Rams/Teamintro-temp.png"
-  teamintropdf: "/assets/img/teams/Team_Rams/TeamRams-Teamintro-temp.pdf"
-# targetcourses: 
-#  - name: ""
-#    coursenumber: 
+  teamintroimg: "/assets/img/teams/Team_Rams/Teamintro2.png"
+  teamintropdf: "/assets/img/teams/Team_Rams/TeamRams-Teamintro.pdf"
+  targetcourses: 
+  - name: "Java Programming"
+    coursenumber: "CSC 1311"
   goals:
   - sessionname: "Checkin #2"
     goals: [ "Identifying target course and applicable HPC resources from ORNL/wider HPC community" ]
+  - sessionname: "Checkin #3"
+    goals: ["Modify course outline for CSC 1311.", "Write lab exercises.", "Work on poster."]
 # poster:
 # github:
+  files:
+  - filename: "Zoom Background"
+    filelink: "/assets/img/teams/Team_Rams/VirtualBackground.jpg"
+    filetype: "JPG"
 
 - teamname: "More Data, More Code"
   members: ["Yvonne Phillips", "Alfred Watkins" ]
