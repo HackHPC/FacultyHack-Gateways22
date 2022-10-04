@@ -83,6 +83,13 @@
                                 {% if team.teamintropdf %}
                                 <li>Team Introduction Slide: <a href="{{ team.teamintropdf | prepend: site.baseurl }}">[PDF]</a></li> 
                                 {% endif %} 
+                                
+                                {% if team.files %}
+                                    {% for file in team.files %}
+                                    <li>{{ file.filename }}: <a href="{{ file.filelink | prepend: site.baseurl }}">[{{ file.filetype }}]</a></li> 
+                                    {% endfor %}
+                                {% endif %}
+                                
                                 {% if team.poster %}
                                 <li>Poster: <a href="{{ team.poster | prepend: site.baseurl }}">[PDF]</a></li> 
                                 {% endif %}

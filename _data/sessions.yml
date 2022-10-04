@@ -258,6 +258,10 @@ mentors:
 #   goals: [ ]
 #   poster:
 #   github:
+#files:
+#  - filename: """
+#    filelink: ""
+#    filetype: ""
 
 teams:
 - teamname: "Team Rams"
@@ -278,7 +282,7 @@ teams:
   - sessionname: "Checkin #2"
     goals: [ "Identifying target course and applicable HPC resources from ORNL/wider HPC community" ]
   - sessionname: "Checkin #3"
-    goals: ["Modify course outline for CSC 1311.", "Write lab exercises.", "Work on poster."]
+    goals: ["Modify course outline for CSC 1311", "Write lab exercises.", "Work on poster."]
 # poster:
 # github:
   files:
@@ -340,7 +344,9 @@ teams:
   teamintroimg: "/assets/img/teams/NSU_Software_Warriors/Teamintro.png"
   teamintropdf: "/assets/img/teams/NSU_Software_Warriors/NSUTeamintro.pdf"
   targetcourses: 
-    - name: "Computer Science 1"
+    - name: "Principles of Distributed Software Systems"
+#    coursenumber: 
+    - name: "Introduction to Programming for Science Majors"
 #    coursenumber: 
   goals:
   - sessionname: "Team Goal"
@@ -349,6 +355,10 @@ teams:
     goals: [ "Identify Use Cases (Chemistry, Engineering) for CS1 course for the sciences", "Develop course description for CS1 course", "Refine course description for PDC course", "Find textbooks and materials for CS1 and PDC" ]
 # poster:
 # github:
+  files:
+    - filename: "Checkin #3 Slide"
+      filelink: "/assets/img/teams/NSU_Software_Warriors/nsu-checkin3.pdf"
+      filetype: "PDF"
 
 - teamname: "Data Shepherds"
   members: ["La Tasha Roberts","Gina Bullock"]
