@@ -302,13 +302,15 @@ teams:
   teamintroimg: "/assets/img/teams/More_Data-More_Problems/Teamintro.png"
 # teamintropdf: 
   targetcourses: 
-  - name: "Data Science"
-#    coursenumber:
+  - name: "Data Science I"
+    coursenumber: "HCSC 411"
 #  - name: "Software Engineering"
 #     coursenumber: 
   goals:
   - sessionname: "Checkin #2"
     goals: [ "Get the Data Science initiative to assist in enrolling students in the HPCC course", "Create a curriculum to implement a tree-based model using a cluster" ]
+  - sessionname: "Checkin #3"
+    goals: ["Get the Data Science initiative to assist in enrolling students in the HPCC crash course", "Create a curriculum to implement a tree-based model using a cluster"]
 # poster:
 # github:
 
