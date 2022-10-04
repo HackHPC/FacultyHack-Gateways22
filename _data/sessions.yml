@@ -77,6 +77,9 @@ sessions:
   url:
   - name: "Google Qwiklabs"
     url: https://go.qwiklabs.com
+  youtube:
+  - name: "Checkin #3 Qwiklabs Labs CloudyCluster in the Classroom Training"
+    link: https://youtu.be/3eogS2NcRjg
 
 - name: "Oak Ridge National Labs (ORNL)" 
   type: "Checkin/Training"
