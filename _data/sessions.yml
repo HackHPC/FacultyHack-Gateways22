@@ -109,7 +109,14 @@ sessions:
   zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   icsfile: "/assets/ics_files/oct-13-FacultyHackTraining.ics"
-  #files:
+  ur:
+  - name: "Example Github Repo Demo"
+    url: "https://github.com/jeaimehp/Git-Intro"
+  - name: "Faculty Hack Site Github Repo"
+    url: https://github.com/HackHPC/FacultyHack-Gateways22
+  files:
+  - filename: "Github Overview (PDF)"
+    location: "/assets/slidedecks/GithubReview.pdf"
   #url:
 
 - name: "Reception and Poster Presentations" 
