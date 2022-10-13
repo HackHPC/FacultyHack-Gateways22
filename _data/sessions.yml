@@ -95,7 +95,9 @@ sessions:
   zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
   icsfile: "/assets/ics_files/oct-6-FacultyHackTraining.ics"
   #files:
-  #url:
+  url:
+  - name: "ORNL Ascent Cluster Access"
+    url: https://docs.olcf.ornl.gov/systems/summit_user_guide.html#obtaining-access-to-ascent
 
 - name: "GitHub" 
   type: "Checkin/Training"
