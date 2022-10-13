@@ -52,8 +52,8 @@ sessions:
   files:
   - filename: "Code of Conduct (PDF)"
     location: "/assets/slidedecks/code_of_conduct.pdf"
-  - filename: "Poster Template (PPTX)"
-    location: "/assets/slidedecks/FacultHackGateways22PosterTemplate.pptx"
+  - filename: "[Updated] Poster Template (PPTX)"
+    location: "/assets/slidedecks/Updated-FacultHackGateways22PosterTemplate.pptx"
   #url:
   youtube:
   - name: Code of Conduct
