@@ -184,7 +184,7 @@ mentors:
   url: https://www.ornl.gov
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
-      url: maccarthyea@ornl.gov
+      url: "mailto:maccarthyea@ornl.gov"
     - title: linkedin
       url: https://www.linkedin.com/in/elijah-maccarthy-ph-d-6176b293/
     #- title: twitter
@@ -200,7 +200,7 @@ mentors:
   url: https://www.nsula.edu
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
-      url: sissaya@nsula.edu
+      url: "mailto:sissaya@nsula.edu"
     #- title: linkedin
     #  url: https://www.linkedin.com/in/adonay-sissay-57197a34/
     #- title: twitter
@@ -216,7 +216,7 @@ mentors:
   url: https://www.ornl.gov
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
-      url: vergaravg@ornl.gov
+      url: "mailto:vergaravg@ornl.gov"
     - title: linkedin
       url: https://www.linkedin.com/in/veronicamelessevergara
     - title: twitter
@@ -232,7 +232,7 @@ mentors:
   url: https://www.ornl.gov
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
-      url: holmenjk@ornl.gov
+      url: "mailto:holmenjk@ornl.gov"
     - title: linkedin
       url: https://www.linkedin.com/in/jholmen/
     #- title: twitter
