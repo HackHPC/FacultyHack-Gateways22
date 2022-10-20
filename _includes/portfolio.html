@@ -20,6 +20,7 @@
             </tr>
             <tr style="border-bottom: 2px solid black;">
                 <td style="width: 40%; ">
+                        
                             <h3>Members:</h3>
                             <b>Team Mentor:</b><br> {{ team.mentor }}
                                 {% for ment in site.data.sessions.mentors %}
@@ -107,6 +108,12 @@
                         <td >
                             
                             <br>
+                        {% if team.teamawards %}
+                            {% for award in team.teamawards %} 
+                                <h3 style="color: #fea500">&#127942; {{ award }}</h3>
+                            {% endfor %}
+                            <br>
+                        {% endif %}
 
                             {% if team.teamintroimg %}
                                 <a href="{{ team.teamintropdf | prepend: site.baseurl }}"><img src="{{ team.teamintroimg | prepend:site.baseurl }}"></a>

@@ -282,7 +282,7 @@ teams:
     url: https://www.wssu.edu/
 # themesongname: 
 # themesongurl: 
-  teamintroimg: "/assets/img/teams/Team_Rams/Teamintro2.png"
+  teamintroimg: "/assets/img/teams/Team_Rams/800px_TeamRams.png"
   teamintropdf: "/assets/img/teams/Team_Rams/TeamRams-Teamintro.pdf"
   targetcourses: 
   - name: "Java Programming"
@@ -292,6 +292,7 @@ teams:
     goals: [ "Identifying target course and applicable HPC resources from ORNL/wider HPC community" ]
   - sessionname: "Checkin #3"
     goals: ["Modify course outline for CSC 1311", "Write lab exercises.", "Work on poster."]
+  teamawards: "Best Poster Award Gateways 2022"
 # poster:
 # github:
   files:
@@ -308,7 +309,7 @@ teams:
     url: https://morehouse.edu/
 # themesongname: 
 # themesongurl: 
-  teamintroimg: "/assets/img/teams/More_Data-More_Problems/Teamintro.png"
+  teamintroimg: "/assets/img/teams/More_Data-More_Problems/800px_MoreDataMoreCode.png"
 # teamintropdf: 
   targetcourses: 
   - name: "Data Science I"
@@ -332,7 +333,7 @@ teams:
     url: https://www.ecsu.edu/
   themesongname: "Viking Boast Battle (by: Vikings)"
   themesongurl: https://www.youtube.com/watch?v=j49NyHMZLd0
-  teamintroimg: "/assets/img/teams/Viking_Bytes/TeamIntro.png"
+  teamintroimg: "/assets/img/teams/Viking_Bytes/800px_VikingBytes.png"
   teamintropdf: "/assets/img/teams/Viking_Bytes/VikingBytesTeamIntro.pdf"
   targetcourses: 
   - name: "Data Mining and Machine Learning"
@@ -352,7 +353,7 @@ teams:
     url: https://www.austincc.edu/sites/default/files/components/images/tansfer-slide-web02.jpg
 # themesongname: 
 # themesongurl: 
-  teamintroimg: "/assets/img/teams/NSU_Software_Warriors/Teamintro.png"
+  teamintroimg: "/assets/img/teams/NSU_Software_Warriors/800px_SoftwareWarriors.png"
   teamintropdf: "/assets/img/teams/NSU_Software_Warriors/NSUTeamintro.pdf"
   targetcourses: 
     - name: "Principles of Distributed Software Systems"
@@ -384,7 +385,7 @@ teams:
   
 # themesongname: 
 # themesongurl:
-  teamintroimg: "/assets/img/teams/Number_Crunchers/Teamintro.png"
+  teamintroimg: "/assets/img/teams/Number_Crunchers/800px_CodeShepard.png"
   teamintropdf: "/assets/img/teams/Number_Crunchers/NumberCrunchersTeamintro.pdf"
   targetcourses: 
   - name: "Accounting for Non-Accounting Majors"
